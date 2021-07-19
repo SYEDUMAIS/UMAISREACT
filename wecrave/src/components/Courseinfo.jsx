@@ -1,10 +1,11 @@
 export const Courseinfo = ({courseName, Institute, ContactNo, city}) => {
     return(
         <table border="2px">
+            
         <tr>
           <td>Course</td>
           <td>:</td>
-          <td>{courseName}</td>
+          <td className="colorchange">{courseName}</td>
         </tr>
         <tr>
           <td>Institute</td>
@@ -20,8 +21,8 @@ export const Courseinfo = ({courseName, Institute, ContactNo, city}) => {
           <td>City</td>
           <td>:</td>
           <td>{city}</td>
+        
         </tr>
-
       </table>
     )
 }

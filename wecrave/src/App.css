@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+table
+{
+  padding: 20px;
+  margin-right: 100px;
+}
+td
+{
+  padding: 5px;
+}
+.colorchange
+{
+  color: red;
+}
+.class1
+{
+  margin-right: 200px;
+}
+h1
+{
+  text-align: center;
+}
