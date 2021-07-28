@@ -1,0 +1,15 @@
+/* ---------------main div----------------- */
+/* .mainClass
+{
+    background-image: url('../../public/fizKFc.jpg');
+} */
+/* ---------------inputfileds css---------- */
+.inputfileds
+{
+    padding: 20px;
+    margin: 160px;
+    background-color: rgb(255, 242, 222);
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 0 0 10px;
+}

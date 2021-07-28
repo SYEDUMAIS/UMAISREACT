@@ -1,3 +1,66 @@
+.Navbar2
+{
+    background-color: rgb(133, 233, 75);
+    margin-top: 20px;
+}
+.logoofelearn
+{
+    height: 50px;
+}
+/* -----------nav bar anchors home--------------- */
+.navanchor1
+{
+    text-decoration: none;
+    color: black;
+}
+/* -----------nav bar anchors Produt catalog--------------- */
+.navanchor2
+{
+    text-decoration: none;
+    color: black;
+}
+/* -----------nav bar anchors Resources--------------- */
+.navanchor3
+{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+/* -----------nav bar anchors Contact Us--------------- */
+.navanchor4
+{
+    text-decoration: none;
+    color: black;
+}
+/* -----------nav bar anchors About Us--------------- */
+.navanchor5
+{
+    text-decoration: none;
+    color: black;
+}
+/* -----------nav bar anchors Forum--------------- */
+.navanchor6
+{
+    text-decoration: none;
+    color: black;
+}
+/* -----------main container css------------- */
+.mainContain
+{
+    padding: 10px;
+    margin: 20px auto;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    box-shadow: 0 0 10px;
+}
+.secondarycontain
+{
+    background-color: azure;
+    border: solid 1px black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+}
+
 Button{
     margin: 120px;
 }
@@ -5,4 +68,23 @@ Button{
 Col
 {
     border: 1px solid black;
+}
+
+.FormsImage
+{
+    margin: 30px 0px 10px -70px;
+    border-radius: 20px 0px 20px 0px;
+}
+
+
+.BulbeONimage
+{
+    height: 250px;
+    width: 250px;
+}
+.BulbeOFFimage
+{
+    height: 280px;
+    width: 250px;
+    margin: -30px 0px 0px -220px;
 }
