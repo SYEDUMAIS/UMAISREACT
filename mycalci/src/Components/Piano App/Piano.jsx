@@ -1,3 +1,4 @@
+// ----------------------Child Component of piano parent jsx file----------//
 import react from 'react';
 import { Button, Card } from 'react-bootstrap';
 import '../Piano App/Piano.css';

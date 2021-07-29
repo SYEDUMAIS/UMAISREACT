@@ -1,10 +1,12 @@
 import React from 'react';
 import { Card, Row, Col, Container } from 'react-bootstrap';
 import { Piano } from './Piano';
+import { Audioplayer } from '../AudioPlayer/Audioplayer';
 
 export const Pianoparent = () =>{
     return (
         <div>
+            <Audioplayer />
             <Container className="Pianocontainer">
             <Card>
                 <Row>
