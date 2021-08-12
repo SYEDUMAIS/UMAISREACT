@@ -1,4 +1,5 @@
 import react, { useState } from "react";
+import { useEffect } from "react";
 import { Form, Button, Card, Row, Col, Container } from "react-bootstrap";
 import "../Components/EMIcalc.css";
 
@@ -14,6 +15,11 @@ export const EMIcalc = () => {
     const emilocal = repayamount / (n * 12);
     setEmi(emilocal);
   };
+
+  // Componentdidupdate or componentwillupdate
+  useEffect(()=>{
+    handleCalEMI();
+  },[p,n,r])
 
   return (
     <div className="mainClass">
